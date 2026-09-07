@@ -1,8 +1,16 @@
 # TODO set config values
 
-num_pages = 592
+num_pages = 400
 
 color_pages = []
+
+image_pages = [
+    5,
+    389,
+    393,
+    395,
+    397,
+]
 
 # pages with images (grayscale or color)
 # TODO use the OCR result to separate text and image regions
@@ -14,12 +22,24 @@ max_scan_width_mm = 215.88
 max_scan_height_mm = 355.567
 
 # physical page size (before unbinding)
-page_width_mm = 124
-page_height_mm = 190
+page_width_mm = 151
+page_height_mm = 228
 
 # physical page width after unbinding
 # unbinding removes a small strip (about 5 mm width) from the inside edge
-unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
+# unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
+unbinded_page_width_mm = 149
+
+# TODO use 4 unbinded widths:
+# 1. top width of the first page
+# 2. top width of the last page
+# 3. bottom width of the first page
+# 4. bottom width of the last page
+# for simplicity, we can assume linear gradients between these widths
+unbinded_page_width_front_top_mm = 149
+unbinded_page_width_front_bottom_mm = 150
+unbinded_page_width_back_top_mm = 147
+unbinded_page_width_back_bottom_mm = 148
 
 # which physical page edge is fed first into the document scanner?
 # that edge becomes the scan top edge
@@ -32,7 +52,7 @@ unbinded_page_width_mm = page_width_mm - 5 # 5 mm width was removed
 # scan_top_edge = "inside"
 # scan_top_edge = "top"
 # scan_top_edge = "bottom"
-scan_top_edge = "inside"
+scan_top_edge = "top"
 
 # Less clearance than this makes the outside edge unreliable for detection.
 outside_edge_detection_min_margin_mm = 2.0
