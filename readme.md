@@ -76,10 +76,10 @@ um ihre Autonomie zu sichern.
 
 ## scans
 
-### TODO_BOOK_TORRENT_NAME
+### andre.schmitt.augen.auf.2026.600dpi.german.book.scan
 
 ```
-TODO_BOOK_TORRENT_MAGNET_LINK
+magnet:?xt=urn:btih:787734d247383db7029f886ec474cf35ff97bbaf&dn=andre.schmitt.augen.auf.2026.600dpi.german.book.scan&xl=1092262161&tr=udp%3A%2F%2F185.216.179.62%3A25%2Fannounce&tr=udp%3A%2F%2F93.158.213.92%3A1337%2Fannounce&tr=udp%3A%2F%2F107.189.2.131%3A1337%2Fannounce&piece_size=4194304
 ```
 
 ## mirrors
