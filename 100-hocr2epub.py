@@ -79,28 +79,70 @@ args += [
     "--text-format", "html",
     # TODO? move these config items to 000-config.py
     "--doc-modified", doc_modified,
-]
-
-
-todo_args = [
-    "--doc-title", "",
-    "--doc-subtitle", "",
+    "--doc-title", "Augen Auf!",
+    "--doc-subtitle", "Wie du Gefahr erkennst, bevor sie dich erkennt",
     # "--doc-subject", "",
-    "--doc-date", "2025",
+    "--doc-date", "2026",
     "--doc-edition", "1",
-    "--doc-extent", "123 pages",
-    "--color-image-pages", "124,125",
-    "--doc-author", "",
+    "--doc-extent", "399 pages",
+    "--color-image-pages", "401-",
+    "--doc-author", "Andre Schmitt",
+    "--doc-author", "Dr. Charlie Chromehead",
     # "--doc-introducer", "",
     # "--doc-contributor", "",
     # "--doc-translator", "",
-    "--doc-publisher", "",
+    # "--doc-publisher", "",
     "--doc-language", "de", # german
     # "--doc-language", "en", # english
-    "--doc-isbn", "0000000000000",
-    "--doc-cover-image", "072-deskew-fix-page-size/999.tiff",
+    "--doc-isbn", "9798278822394",
+    "--doc-cover-image", "072-deskew-fix-page-size/401.tiff",
     "--canonical-url-base", "https://TODO_REPO_OWNER_USERNAME.github.io/TODO_REPO_NAME/",
     "--doc-description", """
+Der Fehler den du nicht machen darfst:
+Ein ungutes Gefühl ignorieren.
+Den flüchtigen Blick abtun.
+Sich selbst beruhigen:
+„Wird schon nichts sein.“
+Das ist die Denkweise, die Opfer hervorbringt.
+Denn wenn du siehst, bist du schon im Kampf.
+Aber wenn du erkennst, bist du noch frei.
+
+Dieses Buch ist dein ungeschminkter Blick hinter die Fassade der Sicherheit -
+geschrieben von den Schattenprofilern André Schmitt
+(Veteran des Kommando Spezialkräfte (KSK); Überlebender aus Krisen- und Kriegsgebieten)
+und Dr. Charlie Chromehead
+(Fachpsychologe, Profiler und ehemaliger Soldat militärischer Spezialkräfte; Experte für manipulative Muster).
+
+Sie haben an Orten operiert, wo ein Fehler den Tod bedeutete.
+Jetzt brechen sie das Schweigen und geben dir das Wissen,
+das bisher nur Geheimdiensten und Spezialeinheiten vorbehalten war.
+
+Wir geben dir keine Ratschläge.
+Wir geben dir ein Werkzeug, das Leben rettet:
+
+Der Code der Gefahr:
+Lerne, Mimik, Gestik und Körpersprache so schnell zu lesen, dass du die Bedrohung erkennst,
+bevor sie weiß, dass sie gesehen wurde.
+
+Entlarve die Täuschung:
+Durchschaue manipulative Muster und löse Täuschungen auf, bevor sie ausgesprochen werden.
+
+Die 3-Sekunden-Regel:
+Trainiere dein Frühwarnsystem und erkenne den kritischen Moment,
+in dem du verschwindest, bevor die Eskalation beginnt.
+
+Hör auf, blind zu sein:
+In einer Zeit, in der Verbrechen am helllichten Tag passieren und Gewalt ohne Vorwarnung explodiert,
+ist Wegsehen Verrat an deiner eigenen Sicherheit.
+
+Du kannst dich nicht mehr auf andere verlassen.
+Dein Verstand ist deine beste Waffe.
+
+Dies ist das härteste und ehrlichste Training für deinen mentalen Muskel.
+Geschrieben für alle, die bereit sind, den unbequemen Preis der Klarheit zu zahlen,
+um ihre Autonomie zu sichern.
+
+Öffne die Augen. Sei kompetent. Überlebe!
 """,
 ]
 

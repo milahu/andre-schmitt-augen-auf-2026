@@ -184,9 +184,10 @@ image_viewer = "feh"
 
 fill_white_pages_lightness_file = "0683-lightness.txt"
 
-# 099.999270 325.tiff # white
-# 099.792250 001.tiff # non-white
-fill_white_pages_white_lightness_threshold = 99.99 / 100 # 99.99%
+# 099.996527 398.tiff # white
+# 099.995
+# 099.992729 013.tiff # non-white
+fill_white_pages_white_lightness_threshold = 99.995 / 100 # 99.995%
 
 
 
@@ -196,6 +197,9 @@ deskew_lightness_file = "0683-lightness.txt"
 
 # Threshold to consider a page "white" (mean lightness close to 1)
 # deskew_white_lightness_threshold = 99.99 / 100 # 99.99%
+# 099.983995 388.tiff # non-white
+# 099.95
+# 099.521153 004.tiff # text
 deskew_white_lightness_threshold = 99.95 / 100 # 99.95%
 # deskew_white_lightness_threshold = 99.90 / 100 # 99.90%
 
